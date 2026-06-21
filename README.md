@@ -6,9 +6,9 @@ The following is a dataset for the fuzzy flexible job shop scheduling problem wi
 
 The FFJSP-Z dataset is extended from three groups of fuzzy flexible job shop scheduling benchmark instances in the literature:
 
-- D01–D05: extended from the benchmark instances in [36] and [37].
-- R01–R08: extended from the benchmark instances in [38].
-- FMK01–FMK10: extended from the benchmark instances in [31].
+- D01–D05: derived from the benchmark instances in [36] and [37].
+- R01–R08: derived from the benchmark instances in [38].
+- FMK01–FMK10: derived from the benchmark instances in [31].
 
 For each original fuzzy flexible job shop scheduling instance, the generator script augments the processing-time information with reliability information. Machine categories are assigned according to Table S-II, and reliability levels are assigned according to Table S-I.
 
