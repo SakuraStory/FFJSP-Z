@@ -38,3 +38,8 @@ To ensure reproducibility, the following random seeds are used:
 - `i` denotes the index of the benchmark instance in `inputFiles`
 - The MATLAB random number generator is initialized using `rng(seed, 'twister')`
 
+## Case: Francis Turbine Manufacturing
+
+This case study dataset describes the actual production scenario of Francis turbine component manufacturing from 2021 to 2025, comprising standard process routings, processing resource information, 4,500 operation records from 125 completed turbines, and 852 maintenance event records. These products are categorized into 5 models, with each product consisting of 6 jobs and a total of 36 operations. The production resources include 54 equipment units or stations across 8 types of machining centers.
+
+Among these operations, 7 feature multiple optional machining centers, resulting in a total of 44 operation and machining center type combinations along the standard process routing. Each operation record corresponds to a physical machine that actually executed the process. The records explicitly list the net processing time, maintenance downtime, and total machine occupancy time to facilitate independent analysis of processing time uncertainty and machine availability. The manufacturing and maintenance histories in this dataset are directly collected from raw shop floor logs.
